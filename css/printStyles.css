@@ -1,0 +1,51 @@
+/*
+	Filename: 		printStyles.css
+	Author: 		Richard M. Hellstrand (Sweden)
+	Website: 		www.hellstrand.org
+	Purpose: 		Subsection of the hellstrand.org website
+	Date: 			1st of November, 2012
+	Description:	This stylescheet was created for the last project of a HTML/CSS course
+					at a Swedish university. This special stylesheet is used for printouts
+					and not all pages have this stylesheet linked. Reason for that could be
+					that there are no text or too little text to actually print out.
+	Language:		The world of computers were made in the English language and for that reason
+					I will not mix english and my native tongue in my projects.
+	Comment:		Student project of a Web Design course I once undertook.
+*/
+
+/*	This contextual-selector ensures that the mentioned tag have no text decorations as well as black text for printouts. */
+#page a
+{
+	text-decoration : none;
+	color : #000;
+}
+	
+	/*	This selector ensures that the mentioned tag have some special style elements implemented for printouts. */
+	#content
+	{
+		float : none;
+		height : auto;
+		width : 450px;
+		margin-top : 0pt;
+		margin-left : auto;
+		margin-right : auto;
+		margin-bottom : 0pt;
+		padding-top : 0pt;
+		padding-left : 0pt;
+		padding-right : 0pt;
+		padding-bottom : 0pt;
+		color : #000;
+		text-align : justify;
+	}
+		
+		/*	This selector ensures that the mentioned tag have a page breaker that will be used during printing so the text will not be cut in half. */
+		.breaker
+		{
+			page-break-after : always;
+		}
+
+/*	This multiple-contextual-selector ensures that the mentioned tags have the content hidden during printouts to prevent a waste of printer resources. */
+#page img, #content img, #header, #menu, .hidePrint, .leftGoto, .rightGoto, #breadcrumbs, #footer
+{
+	display : none;
+}

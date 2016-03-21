@@ -1,0 +1,143 @@
+<!--
+	Filename: 		multimedia02.htm
+	Author: 		Richard M. Hellstrand (Sweden)
+	Website: 		www.hellstrand.org
+	Purpose: 		Subsection of the hellstrand.org website
+	Date: 			1st of November, 2012
+	Description:	This htm file contains image/audio/video about the Kohan game.
+	Language:		The world of computers were made in the English language and for that reason
+					I will not mix english and my native tongue in my projects.
+	Comment:		Student project of a Web Design course I once undertook.
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><!-- html-tag begins.. -->
+
+	<head><!-- head-tag begins.. -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<!--[if IE]>
+        	<link href="../../css/defaultStylesIE.css" rel="stylesheet" type="text/css" media="screen"/>
+        <![endif]-->
+        <![if !IE]>
+            <link href="../../css/defaultStyles.css" rel="stylesheet" type="text/css" media="screen"/>
+            <link href="../../css/unsupportedStyles.css" rel="stylesheet" type="text/css" media="screen"/>
+        <![endif]>
+		<script src="../../js/swfobject.js" type="text/javascript"></script>
+		<script src="../../js/ep_player.js" type="text/javascript"></script>
+		<title>Kohan: Audio!</title>
+	</head><!-- head-tag ends.. -->
+
+	<body><!-- body-tag begins.. -->
+		<div id="page"><!-- page-tag begins.. -->
+			<div id="header"><!-- header-tag begins.. -->
+				<div id="breadcrumbs"><!-- breadcrumbs-tag begins.. -->
+					<div id="icon"><!-- icon-tag begins.. -->
+						<img src="../../multimedia/image/icon.png" alt="Another Kohan amulet, which was used in the other two games; KIS and KAG.." title="Another Kohan amulet, which was used in the other two games; KIS and KAG.."/>
+					</div><!-- icon-tag ends.. -->
+					<div id="link"><!-- link-tag begins.. -->
+						<b>▼</b><a href="../../index.html" tabindex="10" title="Return to the starting page!"> Kohan 2: Kings of War </a>
+						<b>►</b><a href="../multimedia.htm" tabindex="11" title="Multimedia, contains audio, video as well as images of different kinds where you will be able to discover the beauty of this game without actually having the game installed.."> Multimedia </a>
+						<b title="Du är här!">►</b><a href="multimedia02.htm" tabindex="12" title="Audio, this page contains MP3 files that represent the ambient music that is being used in the game: Kohan 2: Kings of War.."> Audio </a>
+					</div><!-- link-tag ends.. -->
+				</div><!-- breadcrumbs-tag ends.. -->
+				<div id="logo"><!-- logo-tag begins.. -->
+					<a href="../../index.html" tabindex="1" title="Return to the starting page!">
+						<img src="../../multimedia/image/logotype.png" alt="This amulet I modified to give it this nice half darkened feeling, which in return gives a better debt to the website.." title="This amulet I modified to give it this nice half darkened feeling, which in return gives a better debt to the website.."/>
+					</a>
+				</div><!-- logo-tag ends.. -->
+				<br/>
+			</div><!-- header-tag ends.. -->			
+			<div class="menu"><!-- menu-tag begins.. -->
+				<a class="leftGoto" href="../overview.htm" tabindex="2" title="Overview, contains a brief description of the essentials of the Kohan 2: Kings of War game..">
+					Overview
+				</a>
+				<a class="leftGoto" href="../design.htm" tabindex="3" title="Design, contains my creations.. Both standalone maps as well as my 'work in progress' Campaign..">
+					Design
+				</a>
+				<a class="leftGoto" href="../multimedia.htm" tabindex="4" title="Multimedia, contains audio, video as well as images of different kinds where you will be able to discover the beauty of this game without actually having the game installed..">
+					<em>Multimedia</em>
+				</a>
+				<a class="leftGoto" href="../sitemap.htm" tabindex="5" title="Sitemap, contains two pages of links to each page that you can find under this website.. It's divided into two, one for the races and subpages and the other for menu pages..">
+					Sitemap
+				</a>
+				<a class="leftGoto" href="../website.htm" tabindex="6" title="Website, contains links to other websites that have information about this awesome game..">
+					Website
+				</a>
+			</div><!-- menu-tag ends.. -->
+			<div id="content"><!-- content-tag begins.. -->
+				<div class="contentContainer">
+                	<img id="printable" src="../../multimedia/image/nonprint.png" alt="NOT Printable, pages with this icon should not be considered for printouts.." title="NOT Printable, pages with this icon should not be considered for printouts.."/>
+					<h1>
+						Audio
+					</h1>
+					<p>
+						Below you can find a very nice audio player created by <strong>e-phonic</strong> and in the playlist, you can find eight
+						MP3 songs that was collected from the Awakening website. Six of those are especially made for the races, with other words,
+						those are only played if one of those races are being played. The other two are general ambient music, which could be played
+						regardless of race.
+					</p>
+					<p class="paraIndent">
+						On the next page you will find video files that can either be viewed in the current browser, or send
+						you to Youtube where you can also view them.
+					</p>
+					<br/>
+				</div>
+				<br/>
+				<script id="player" type="text/javascript" defer="defer">
+					////////////////////////////////////////////////////////////////////////////
+					var flashvars = {};
+					flashvars.skin 		= '../../js/skins/basic_black/skin-micro.xml';
+					flashvars.playlist 	= '../../js/playlist.xml';
+					flashvars.autoplay 	= 'false';
+					flashvars.volume 	= '80';
+					flashvars.shuffle 	= 'false';
+					flashvars.key 		= '';
+					
+					////////////////////////////////////////////////////////////////////////////
+					var params = {};
+					params.allowScriptAccess = 'always';
+					
+					////////////////////////////////////////////////////////////////////////////
+					var attributes = {};
+					attributes.id = 'ep_player1';
+					
+					////////////////////////////////////////////////////////////////////////////
+					swfobject.embedSWF(
+						'../../js/ep_player.swf', 			// the location of the swf file
+						'player',			// the id of the div to print the player in 
+						'475', '24', 				// the width and height of the player
+						'10.0.0',					// the required flash version 
+						false,						// we've disabled express-install to keep it simple
+						flashvars,
+						params,
+						attributes
+					);
+				</script>
+				<br/><br/><br/>
+			</div><!-- content-tag ends.. -->
+			<div class="menu"><!-- menu-tag begins.. -->
+				<a class="leftGoto" href="multimedia01.htm" tabindex="8" title="Return to the previous page..">
+					Previous
+				</a>
+				<a class="rightGoto" href="multimedia03.htm" tabindex="9" title="Go to the next page..">
+					Next
+				</a>
+				<a class="centerDownload" href="../../multimedia/audio/kohan_ambient.zip" tabindex="7" title="Download ALL MP3 files..">
+					Download ALL, 22,5 MB
+				</a>
+			</div><!-- menu-tag ends.. -->
+			<div id="footer"><!-- footer-tag begins.. -->
+				<div id="statement"><!-- statement-tag begins.. -->
+					<p>
+						Copyright &copy; 2011 <a href="http://www.hellstrand.org" tabindex="13" title="Visit the official website of the Developer..">RichardMH</a>. All rights reserved.<br/><br/>
+						Copyright &copy; 2000-2011 <a href="http://www.timegate.com" tabindex="14" title="Visit the Creators of this awesome game!">TimeGate Studios</a>, Inc. All rights reserved.<br/>
+						Copyright &copy; 2009-2011 <a href="http://www.e-phonic.com" tabindex="15" title="Visit the Creator of this awesome audio player!">E-Phonic</a>. All rights reserved.<br/>
+						All other logos, brand names, product names listed are trademarks or registered trademarks of their respective holders.
+					</p>
+				</div><!-- statement-tag ends.. -->
+			</div><!-- footer-tag ends.. -->
+		</div><!-- page-tag ends.. -->
+	</body><!-- body-tag ends.. -->
+
+</html><!-- html-tag ends.. -->

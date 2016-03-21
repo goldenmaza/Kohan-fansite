@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist>
+    <trackList>
+		
+        <track>
+            <location>../../multimedia/audio/GeneralAmbient03.mp3</location>
+            <title>General ambient music #1</title>
+            <creator>TimeGate Studios, Inc</creator>
+			<!-- <jsbutton>alert('buy item 1')</jsbutton> -->
+			<!-- <image>mp3/album.gif</image> -->
+        </track>
+		
+        <track>
+            <location>../../multimedia/audio/GeneralAmbient08.mp3</location>
+            <title>General ambient music #2</title>
+            <creator>TimeGate Studios, Inc</creator>
+			<!-- <jsbutton>alert('buy item 1')</jsbutton> -->
+			<!-- <image>mp3/album.gif</image> -->
+        </track>
+		
+        <track>
+            <location>../../multimedia/audio/NationHuman01.mp3</location>
+            <title>Human ambient music</title>
+            <creator>TimeGate Studios, Inc</creator>
+			<!-- <jsbutton>alert('buy item 1')</jsbutton> -->
+			<!-- <image>mp3/album.gif</image> -->
+        </track>
+		
+        <track>
+            <location>../../multimedia/audio/NationHaroun01.mp3</location>
+            <title>Haroun ambient music</title>
+            <creator>TimeGate Studios, Inc</creator>
+			<!-- <jsbutton>alert('buy item 1')</jsbutton> -->
+			<!-- <image>mp3/album.gif</image> -->
+        </track>
+		
+        <track>
+            <location>../../multimedia/audio/NationDrauga03.mp3</location>
+            <title>Drauga ambient music</title>
+            <creator>TimeGate Studios, Inc</creator>
+			<!-- <jsbutton>alert('buy item 1')</jsbutton> -->
+			<!-- <image>mp3/album.gif</image> -->
+        </track>
+		
+        <track>
+            <location>../../multimedia/audio/NationGauri01.mp3</location>
+            <title>Gauri ambient music</title>
+            <creator>TimeGate Studios, Inc</creator>
+			<!-- <jsbutton>alert('buy item 1')</jsbutton> -->
+			<!-- <image>mp3/album.gif</image> -->
+        </track>
+		
+        <track>
+            <location>../../multimedia/audio/NationUndead03.mp3</location>
+            <title>Undead ambient music</title>
+            <creator>TimeGate Studios, Inc</creator>
+			<!-- <jsbutton>alert('buy item 1')</jsbutton> -->
+			<!-- <image>mp3/album.gif</image> -->
+        </track>
+		
+        <track>
+            <location>../../multimedia/audio/NationShadow01.mp3</location>
+            <title>Shadow ambient music</title>
+            <creator>TimeGate Studios, Inc</creator>
+			<!-- <jsbutton>alert('buy item 1')</jsbutton> -->
+			<!-- <image>mp3/album.gif</image> -->
+        </track>
+		
+	</trackList>
+</playlist>

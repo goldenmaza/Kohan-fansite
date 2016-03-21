@@ -1,0 +1,393 @@
+/*
+	Filename: 		defaultStylesIE.css
+	Author: 		Richard M. Hellstrand (Sweden)
+	Website: 		www.hellstrand.org
+	Purpose: 		Subsection of the hellstrand.org website
+	Date: 			29th of October, 2012
+	Description:	This stylescheet was created for the last project of a HTML/CSS course
+					at a Swedish university. The project was to create a personal website
+					about a topic that we hold dear or would like to work with. I chose one
+					of my favorite games; Kohan 2: Kings of War. This website has alot of
+					information regarding that game. I hope you find this website informative,
+					as I also tried to follow the guidelines and rules regarding design,
+					accessibility as well as userfriendly.
+	Language:		The world of computers were made in the English language and for that reason
+					I will not mix english and my native tongue in my projects.
+	Comment:		Student project of a Web Design course I once undertook.
+*/
+
+/*	This selector ensures that the mentioned tag have a specific background colour
+	and image as well as a specific font colour. */
+body
+{
+	background-color : #000;
+	background-image : url("../multimedia/image/background.png");
+	text-align : center;
+	overflow-y : scroll;
+}
+	
+	/*	This multiple-selector ensures that nothing can be placed on either sides of the mentioned tags. */
+	#header, #logo, .menu, #content, #footer
+	{
+		clear : both;
+	}
+	
+	/*	This multiple-selector ensures that the mentioned tags are placed to the left. */
+	#breadcrumbs, #icon, #link, .menu, .gotoFile, .gotoStart, .groupSection, .leftGoto, .leftNoButton, #footer
+	{
+		float : left;
+	}
+	
+	/*	This multiple-selector ensures that the mentioned tags are placed to the right. */
+	#printable, .rightGoto, .rightNoButton
+	{
+		float : right;
+	}
+	
+	/*	This multiple-selector ensures that the mentioned tags have an automatic height adjustment depending on the content. */
+	#page, #header, #logo, #breadcrumbs, .menu, #content, .contentList, .leftGoto, .rightGoto, .centerDownload,
+	.leftNoButton, .rightNoButton, .gotoTarget, .gotoFile, .gotoStart, .contentContainer, .groupSection, #footer
+	{
+		height : auto;
+	}
+	
+	/*	This multiple-selector ensures that the mentioned tags have an automatic width adjustment depending on the content. */
+	#breadcrumbs, #logo, .rightGoto, .leftNoButton, .rightNoButton, .centerDownload, .gotoTarget
+	{
+		width : auto;
+	}
+	
+	/*	This multiple-selector ensures that the mentioned tags have a fixed width regardless of the content. */
+	.kohanUnits, .tdImage, .tdList
+	{
+		width : 75px;
+	}
+	
+	/*	This multiple-contextual-selector ensures that the mentioned tags have a fixed width regardless of the content. */
+	.contentList, #content .contentList p, .contentList table
+	{
+		width : 420px;
+	}
+	
+	/*	This multiple-/contextual-selector ensures that the mentioned tags have an automatic margin adjustment. */
+	.contentList, .centerDownload, .gotoTarget, #content p, .contentContainer, .contentContainer table, #footer, #statement
+	{
+		margin-left : auto;
+		margin-right : auto;
+	}
+		
+	/*	This multiple-contextual-selector ensures that the mentioned tags have a specific bottom-margin for the headings. */
+	#page h1, #page h2, #page h3, #page h4, .contentContainer table
+	{
+		margin-bottom : 10px;
+	}
+	
+	/*	This multiple-selector ensures that the mentioned tags have a specific width and margin style. */
+	.leftGoto, .rightGoto, .leftNoButton, .rightNoButton
+	{
+		width : 100px;
+		margin-top : 3px;
+		margin-left : 20px;
+		margin-right : 18px;
+		margin-bottom : 3px;
+		overflow : hidden;
+	}
+	
+	/*	This multiple-selector ensures that the mentioned tags have a specific width and margin style. */
+	.centerDownload, .gotoTarget
+	{
+		width : 175px;
+		margin-top : 3px;
+		margin-bottom : 3px;
+	}
+	
+	/*	This multiple-selector ensures that the mentioned tags have a fixed padding on all four sides. */
+	.centerDownload, .leftGoto, .rightGoto, .leftNoButton, .rightNoButton, .gotoTarget, .gotoFile, .gotoStart
+	{
+		padding: 5px;
+	}
+	
+	/*	This multiple-selector ensures that the mentioned tags have a fixed padding on all four sides. */
+	#page, #breadcrumbs, #content, #footer, #statement
+	{
+		padding : 10px;
+	}
+	
+	/*	This selector ensures that the mentioned tag have a custom border style on all four sides. */
+	.contentList
+	{
+		border : 5px solid #555;
+	}
+	
+	/*	This multiple-selector ensures that the mentioned tags have a custom border style on all four sides. */
+	.centerDownload, .leftGoto, .rightGoto, .leftNoButton, .rightNoButton
+	{
+		border : 3px solid #333;
+	}
+	
+	/*	This multiple-selector ensures that the mentioned tags have a custom border style on all four sides. */
+	.gotoFile, .gotoStart
+	{
+		border : 2px solid #555;
+	}
+	
+	/*	This multiple-selector ensures that the mentioned tags have a specific background colour. */
+	#page, #header, #breadcrumbs, .menu, .contentList, .leftGoto, .rightGoto, .centerDownload, .leftNoButton,
+	.rightNoButton, .gotoTarget, .gotoFile, .gotoStart,	#content, #footer
+	{
+		background-color : #000;
+	}
+	
+	/*	This multiple-contextual-selector ensures that the mentioned tags have a specific background colour. */
+	.leftGoto:hover, .rightGoto:hover, .centerDownload:hover
+	{
+		background-color : #b78809;
+	}
+	
+	/*	This contextual-selector ensures that the mentioned tag have no decoration for the text. */
+	#page a
+	{
+		text-decoration : none;
+	}
+	
+	/*	This multiple-/contextual-selector ensures that the mentioned tags have center-adjusted the content. */
+	#page h1, #page h2, #page h3, #page h4, #logo, .menu, .rightGoto, .centerDownload, .leftNoButton,
+	.rightNoButton, .gotoTarget, .gotoFile, .gotoStart, #content, .groupSection, #footer
+	{
+		text-align : center;
+	}
+	
+	/*	This multiple-/contextual-selector ensures that the mentioned tags have center-adjusted the content. */
+	#content table, #content p, #content .contentList p
+	{
+		text-align : justify;
+	}
+	
+	/*	This multiple-/contextual-selector ensures that the mentioned tags have a specific font colour. */
+	.leftNoButton, .rightNoButton, .leftGoto:hover, .rightGoto:hover, .centerDownload:hover
+	{
+		color : #000;
+	}
+	
+	/*	This multiple-/contextual-selector ensures that the mentioned tags have a specific font colour. */
+	#header *, #content *, .leftGoto, .rightGoto, .centerDownload, .gotoTarget, .gotoFile, .gotoStart, #footer *
+	{
+		color : #fff;
+	}
+	
+	/*	This multiple-/contextual-selector ensures that the mentioned tags have a specific text colour. */
+	#page h1, #page h2, #page h3, #page h4, #breadcrumbs a:hover, #statement a:hover, #content a:hover, #link b,
+	.groupSection h3
+	{
+		color : #ebc205;
+	}
+	
+	/*	This contextual-selector ensures that the mentioned tag have no border for the images found under the entire website. */
+	#page img
+	{
+		border-style : none;
+	}
+	
+	/*	This multiple-/contextual-selector ensures that the mentioned tags have a specific font style. */
+	.leftGoto, .leftGoto em, .rightGoto, .centerDownload, .leftNoButton, .rightNoButton, .leftGoto:hover,
+	.rightGoto:hover, .centerDownload:hover, .groupSection a:hover
+	{
+		font-weight : bold;
+	}
+	
+	/*	This multiple-selector ensures that the mentioned tags have inherrited the block-element. */
+	.menuItem, .leftGoto, .rightGoto, .centerDownload, .leftNoButton, .rightNoButton, .gotoTarget,
+	.gotoFile, .gotoStart
+	{
+		display : block;
+	}
+	
+	/*	This selector ensures that the mentioned tag have a these style elements implemented, this
+		is the tag that holds the entire content of the website. */
+	#page
+	{
+		width : 779px;
+		overflow : hidden;
+		margin-top : 25px;
+		margin-left : auto;
+		margin-right : auto;
+		margin-bottom : 25px;
+		border-top : 3px solid #000;
+		border-left : 3px solid #000;
+		border-right : 3px solid #000;
+		border-bottom : 3px solid #000;
+		background-image : url("../multimedia/image/frame.png");
+	}
+		
+		/*	This selector ensures that the mentioned tag have a these style elements implemented, this
+			is the tag that holds the top content of the website, like the logotype and breadcrumbs. */
+		#header
+		{
+			width : 749px;
+			padding-top : 5px;
+			padding-left : 5px;
+			padding-right : 10px;
+			padding-bottom : 10px;
+			border-top : 2px solid #ebc205;
+			border-left : 2px solid #ebc205;
+			border-right : 2px solid #ebc205;
+			border-bottom : 1px solid #555;
+		}
+			
+			/*	This selector ensures that the mentioned tag have a left-margin as well as a
+				specific font-size for the breadcrumbs. */
+			#breadcrumbs
+			{
+				margin-left : 3px;
+				font-size : 82%;
+			}
+			
+			/*	This selector ensures that the mentioned tag have a specific padding style. */
+			#link
+			{
+				padding-top : 5px;
+				padding-left : 5px;
+				padding-right : 25px;
+				padding-bottom : 0px;
+			}
+			
+		/*	This selector ensures that the mentioned tag have specific width and background
+			image for the menu-tag. */
+		.menu
+		{
+			width : 753px;
+			padding-left : 25px;
+			padding-right : 25px;
+			border-top : 2px none #000;
+			border-left : 2px solid #000;
+			border-right : 2px solid #000;
+			border-bottom : 2px none #000;
+			background-image : url("../multimedia/image/background.png");
+		}
+		
+		/*	This selector ensures that the mentioned tag have specific width and a border style. */			
+		#content
+		{
+			width : 751px;
+			border-top : 1px solid #555;
+			border-left : 2px solid #ebc205;
+			border-right : 2px solid #ebc205;
+			border-bottom : 1px solid #555;
+		}
+			
+			/*	This contextual-selector ensures that the mentioned tag have a fixed width, margin style
+				as well as justified text alignment. */
+			#content p
+			{
+				width : 475px;
+				margin-top : 0px;
+				margin-bottom : 5px;
+			}
+			
+			/*	This selector ensures that the mentioned tag have specific width, margin, padding style
+				as well as justified text alignment. */
+			.contentList
+			{
+				margin-top : 0px;
+				margin-bottom : 0px;
+				padding-top : 5px;
+				padding-left : 50px;
+				padding-right : 40px;
+				padding-bottom : 5px;
+			}
+			
+			/*	This contextual-selector ensures that the mentioned tag have a margin style as well as justified text alignment. */
+			#content .contentList p
+			{
+				width : 100%;
+				margin-top : 0px;
+				margin-bottom : 5px;
+			}
+			
+			/*	This selector ensures that the mentioned tag have a specific width and padding style. */
+			.contentContainer
+			{
+				width : 525px;
+				padding-top : 5px;
+				padding-left : 20px;
+				padding-right : 20px;
+			}
+			
+			/*	This selector ensures that the mentioned tag have a specific width and margin style. */
+			.groupSection
+			{
+				width : 150px;
+				margin-top : 5px;
+				margin-left : 0px;
+				margin-right : 0px;
+				margin-bottom : 5px;
+				padding-left : 7px;
+				overflow : hidden;
+			}
+			
+			/*	This selector ensures that the mentioned tag remain hidden at all times. */
+			.hidden
+			{
+				display : none;
+			}
+			
+			/*	This selector ensures that the mentioned tag have a fixed height and width. */
+			.headerIcons
+			{
+				height : 18px;
+				width : 18px;
+			}
+			
+			/*	This selector ensures that the mentioned tag have a fixed height regardless of the content. */
+			.kohanUnits
+			{
+				height : 75px;
+			}
+			
+			/*	This selector ensures that the mentioned tag have a fixed height and width. */
+			.listImage
+			{
+				height : 143px;
+				width : 144px;
+			}
+			
+			/*	This selector ensures that the mentioned tag have a fixed width. */
+			.tdWidth
+			{
+				width : 110px;
+			}
+			
+			/*	This selector ensures that the mentioned tag have a specific width. */
+			.gotoFile
+			{
+				width : 109px;
+			}
+			
+			/*	This selector ensures that the mentioned tag have a specific width. */
+			.gotoStart
+			{
+				width : 30px;
+			}
+			
+			/*	This selector ensures that the mentioned tag have a text indent, used for paragraphs. */
+			.paraIndent
+			{
+				text-indent : 25px;
+			}
+		
+		/*	This selector ensures that the mentioned tag have a specific border style. */
+		#footer
+		{
+			width : 752px;
+			border-top : 1px solid #555;
+			border-left : 2px solid #ebc205;
+			border-right : 2px solid #ebc205;
+			border-bottom : 2px solid #ebc205;
+		}
+			
+			/*	This selector ensures that the mentioned tag have a specific width and font size. */
+			#statement
+			{
+				width : 75%;
+				font-size : 69%;
+			}
